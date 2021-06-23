@@ -1,0 +1,46 @@
+#edit-room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+#edit-room input.narrative {
+  width: 50%;
+  font-size: 1.2rem;
+  margin: 0.2rem;
+}
+
+#edit-room span.narrative {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#puzzle-text {
+  display: flex;
+  flex-direction: column;
+}
+
+#puzzle-text textarea {
+  font-size: 1.3rem;
+  width: 90%;
+  height: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+#puzzle-info {
+  display: flex;
+}
+
+#puzzle-info > div {
+  padding: 0.2rem;
+  border-radius: 12px;
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#dimensions input {
+  font-size: 1.2rem;
+}

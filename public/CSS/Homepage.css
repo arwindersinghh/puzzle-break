@@ -1,0 +1,196 @@
+#homepage {
+  min-height: 100vh;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url('../Images/keys.jpeg');
+  filter: opacity(100%);
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  filter: opacity(15%);
+}
+
+#game-div-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#game-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0dbdbeb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #191414;
+  height: 20rem;
+  width: 15rem;
+  font-size: 14px;
+  padding: 1rem;
+  display: flex;
+  border-radius: 8px;
+
+  margin: 2rem;
+  text-align: center;
+  box-shadow: 0px 0px 24px 11px #5a5757;
+}
+
+#game-div div {
+  display: flex;
+  /* contain: content; */
+}
+
+#game-div h3 {
+  /* display: inline-block; */
+  font-size: 1.5rem;
+  /* white-space: nowrap; */
+  font-weight: normal;
+  margin: 0.5rem;
+  text-shadow: 2px 2px 15px #272933;
+}
+
+#scroll {
+  /* margin: 0 5px; */
+  /* border: black 1px solid; */
+  /* margin-top: 0.5rem; */
+  height: 6rem;
+  overflow-y: auto;
+}
+
+#game-div img {
+  /* margin-bottom: 0.5rem; */
+  align-self: center;
+  height: 6rem;
+  width: 9rem;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+#game-div a:visited {
+  color: white;
+}
+
+#game-div a {
+  margin: 0 auto;
+  width: 5rem;
+  position: relative;
+  z-index: 5;
+}
+
+/* 
+#custom-game-div-wrapper {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+/* #custom-game-div {
+  display: flex;
+  flex: 0 0 15%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4rem;
+  align-items: center;
+  text-shadow: 1px 1px 2px black;
+} */
+
+/* #custom-game-div button {
+  height: 2rem;
+  width: 3rem;
+  font-size: 0.8rem;
+  padding: 5px;
+} */
+
+/* #custom-game-div img {
+  height: 6rem;
+  width: 9rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 5px;
+} */
+
+#homepage .heading {
+  position: relative;
+  z-index: 3;
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 3px 13px 21px black;
+}
+
+h1.created-games {
+  color: #e06e0a;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.heading h1 {
+  /* margin: 1rem; */
+  /* font-size: 8rem; */
+  font-weight: normal;
+}
+
+.heading button {
+  background: linear-gradient(to bottom, #435280 5%, #2b0e42 100%);
+  background-color: #435280;
+  border: 1px solid #030105;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.8rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #12081a;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+
+.heading button:hover {
+  background: linear-gradient(to bottom, #522875 5%, #153473 100%);
+  background-color: #522875;
+}
+
+button.play {
+  box-shadow: inset 0px 1px 0px 0px #3dc21b;
+  background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+  background-color: #44c767;
+  border-radius: 6px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 4px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+#homepage a {
+  position: relative;
+  z-index: 3;
+  color: white;
+}
+
+#grey-background {
+  background-image: url('../Images/greybackground.jpeg');
+  background-size: cover;
+  text-shadow: none;
+  min-height: 100vh;
+}

@@ -1,0 +1,31 @@
+#victory-body p {
+  background: #f0f8ff33;
+  margin: 5rem auto;
+  font-size: 1.7rem;
+  width: inherit;
+  text-overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  height: inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px #d8c2c2;
+  line-height: 2.1rem;
+}
+
+#victory-page {
+  height: 100vh;
+  padding: 5rem;
+  background-image: url('../Images/brickalley.jpg');
+  background-size: cover;
+}
+#victory-body button {
+  font-size: 1rem;
+  padding: 0.8rem;
+  margin: 1rem auto;
+}
+
+#victory-body span {
+  color: green;
+  font-size: 2rem;
+}

@@ -1,0 +1,43 @@
+#game-narrative > p {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+#lock-images {
+  width: 850px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#lock-images img {
+  margin: 0.3rem;
+}
+
+#game-tools {
+  height: 3rem;
+  display: flex;
+  width: 65%;
+  margin: 0 auto;
+  align-items: center;
+}
+#game-timer > div h1,
+#room-timer > div h1 {
+  font-size: 1.5rem;
+}
+
+#game-timer,
+#room-timer {
+  width: 25rem;
+}
+
+#custom-game {
+  min-height: 100vh;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../Images/brickalley.jpg');
+}
