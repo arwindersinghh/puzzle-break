@@ -1,12 +1,18 @@
 const Sequelize = require('sequelize');
 
-let config = {
-  logging: false,
+const config = {
+  dialectOptions: {
+    ssl: {
+        rejectUnauthorized: false
+    }
+},
+  logging: false,  
 };
 
 if (process.env.LOGGING === 'true') {
   delete config.logging;
 }
+
 
 // //https://stackoverflow.com/questions/61254851/heroku-postgres-sequelize-no-pg-hba-conf-entry-for-host
 // if (process.env.DATABASE_URL) {
@@ -25,24 +31,25 @@ module.exports = db;
 
 //adding this from nicks comment about heroku being updated:
 
-if (process.env.DATABASE_URL) {
-  config = {
-    logging: false,
-    operatorsAliases: false,
-    dialect: "postgres",
-    protocol: "postgres",
-    ssl: true,
-    dialectOptions: {
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-  }
-} else {
-  config = {
-    logging: false,
-    operatorsAliases: false,
-  }
-}
-const client = new Sequelize(`postgres://localhost:5432/escape_room`, config)
+// let config;
+// if (process.env.DATABASE_URL) {
+//   config = {
+//     logging: false,
+//     operatorsAliases: false,
+//     dialect: "postgres",
+//     protocol: "postgres",
+//     ssl: true,
+//     dialectOptions: {
+//       ssl: {
+//         require: true,
+//         rejectUnauthorized: false,
+//       },
+//     },
+//   }
+// } else {
+//   config = {
+//     logging: false,
+//     operatorsAliases: false,
+//   }
+// }
+// const client = new Sequelize(dbUrl, config)
