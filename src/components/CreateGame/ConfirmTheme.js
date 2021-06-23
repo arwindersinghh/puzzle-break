@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../../../public/css/CreateGame.css';
+import '../../../public/CSS/CreateGame.css';
 import { connect } from 'react-redux';
 import { fetchTheme } from '../../store/singleTheme';
 import '../../../public/CSS/ConfirmTheme.css';
