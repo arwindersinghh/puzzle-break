@@ -10,7 +10,7 @@ import Modal from 'react-modal';
 import useImage from 'use-image';
 
 //css
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 
 // set style for the game timer
 const defaultTimerStyle = { barColor: '#3c15eb', digitColor: 'white' };

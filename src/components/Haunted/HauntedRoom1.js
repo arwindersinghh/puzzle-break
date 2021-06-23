@@ -3,7 +3,7 @@ import { Stage, Layer, Text, Circle, Image, Rect } from 'react-konva';
 import { Redirect } from 'react-router-dom';
 import useImage from 'use-image';
 import { connect } from 'react-redux';
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { fetchGame } from '../../store/game';
 import { Burger } from '../Burger';

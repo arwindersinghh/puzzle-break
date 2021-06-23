@@ -5,7 +5,7 @@ import { Stage, Layer, Image } from 'react-konva';
 import useImage from 'use-image';
 
 // import css
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 import { connect } from 'react-redux';
 
 const Doorway = (props) => {

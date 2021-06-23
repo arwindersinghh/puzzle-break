@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import '../../../public/CSS/BobaFett.css';
+import '../../../public/CSS/Bobafett.css';
 import LeverPuzzle from './LeverPuzzle';
 import MagicSquarePuzzle from './MagicSquarePuzzle';
 import AnnoyingPuzzle from './AnnoyingPuzzle';

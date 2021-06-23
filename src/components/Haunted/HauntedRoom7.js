@@ -12,7 +12,7 @@ import useImage from 'use-image';
 import { fetchGame, updateTimer } from '../../store/game';
 import GameTimer from '../../utils/GameTimer';
 //css
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 
 // set style for the game timer
 const defaultTimerStyle = { barColor: '#3c15eb', digitColor: 'white' };

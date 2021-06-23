@@ -6,7 +6,7 @@ import { fetchUserGame } from '../../store/game';
 import Modal from 'react-modal';
 import { setPuzzles } from '../../store/puzzles';
 import { componentMapping } from '../Puzzles/puzzles';
-import '../../../public/css/CreateGame.css';
+import '../../../public/CSS/CreateGame.css';
 import { createGame } from '../../store/game';
 import { createCustomGame } from '../../store/customGame';
 import { Navbar } from '../Navbar';

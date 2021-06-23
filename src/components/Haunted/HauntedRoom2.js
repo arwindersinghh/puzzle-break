@@ -10,7 +10,7 @@ import useImage from 'use-image';
 //custom modal styles
 import { customStyles } from '../../utils/helpers';
 //import css file
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 
 import { fetchGame, updateTimer } from '../../store/game';
 import GameTimer from '../../utils/GameTimer';

@@ -4,7 +4,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import { Stage, Layer, Circle, Image, Text } from 'react-konva';
 import Modal from 'react-modal';
 import { connect } from 'react-redux';
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 import GameTimer from '../../utils/GameTimer';
 import { updateTimer } from '../../store/game';
 import { Burger } from '../Burger';

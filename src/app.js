@@ -27,13 +27,13 @@ import { CreateTheme } from './components/CreateTheme';
 import Account from './components/Account';
 import UpdateProfile from './components/UpdateProfile';
 
-import Home from './components/riddlez/Home';
-import Home1 from './components/riddlez/Home1';
-import Home2 from './components/riddlez/Home2';
-import Home3 from './components/riddlez/Home3';
-import Home4 from './components/riddlez/Home4';
-import Home5 from './components/riddlez/Home5';
-import LetterBank from './components/riddlez/LetterBank';
+import Home from './components/Riddlez/Home';
+import Home1 from './components/Riddlez/Home1';
+import Home2 from './components/Riddlez/Home2';
+import Home3 from './components/Riddlez/Home3';
+import Home4 from './components/Riddlez/Home4';
+import Home5 from './components/Riddlez/Home5';
+import LetterBank from './components/Riddlez/LetterBank';
 
 import BankGameLevel2 from './components/BankGame/BankGameLevel2';
 import BankGameLevel3 from './components/BankGame/BankGameLevel3';

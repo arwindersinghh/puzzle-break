@@ -4,7 +4,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import { Stage, Layer, Rect, Text, Circle, Group, Image } from 'react-konva';
 import { Redirect } from 'react-router-dom';
 import Modal from 'react-modal';
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 import { connect } from 'react-redux';
 const DoorAjar = (props) => {
   const [image] = useImage('/Images/doorajar.jpg');

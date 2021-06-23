@@ -12,7 +12,7 @@ import { Room8Clue1 } from './Clues';
 import Modal from 'react-modal';
 
 //import css file
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 
 //custom modal styles
 import { customStyles } from '../../utils/helpers';

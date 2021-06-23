@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Stage, Layer, Image, Text } from 'react-konva';
 import useImage from 'use-image';
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 import { connect } from 'react-redux';
 import { fetchGame } from '../../store/game';
 

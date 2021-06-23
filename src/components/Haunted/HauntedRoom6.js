@@ -18,7 +18,7 @@ import { Redirect, Link } from 'react-router-dom';
 import useImage from 'use-image';
 
 //css
-import '../../../public/css/HauntedRoom.css';
+import '../../../public/CSS/HauntedRoom.css';
 
 import TypeWriterEffect from 'react-typewriter-effect';
 import { Lock } from './HauntedRoom2';
