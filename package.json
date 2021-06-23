@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
-    "build": "webpack -p",
+    "build": "webpack",
     "build:watch": "webpack --watch",
     "seed": "node server/seed/seed.js",
     "start:server": "node-dev --respawn server",
