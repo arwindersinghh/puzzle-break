@@ -30,7 +30,7 @@ const init = async () => {
   try {
     await db.sync();
   } catch (err) {
-    console.log(rr);
+    console.log(err);
   }
   app.listen(PORT, () => {
     console.log(`Server listening on PORT: ${PORT}`);
